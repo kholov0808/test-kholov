@@ -1,0 +1,46 @@
+.container1{
+    max-width: 100px;
+    margin: 0 auto;
+}
+.theader{
+    background:rgb(218, 216, 216) ;
+}
+.action-admin {
+    width:26px; 
+     
+}
+.firstName , .lastName{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.action-icons{
+    width: 40px;
+    float: right;    
+    cursor: pointer;
+}
+.delete{
+    background: rgba(245, 140, 140,140);
+    border: 2px solid rgb(245, 95, 95);
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.edit{
+    background: rgba(233, 159, 47,47);
+    border: 2px solid rgb(233, 142, 7);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;   
+}
+.edit:hover{
+    background: rgba(246, 149, 6,1);
+}
+.delete:hover{
+    background: rgba(184, 59, 59,1);
+}
+
+
+
+
+ @media screen and (max-width:460px){
+    .action-icons{
+        width: 28px;  }
+ }
